@@ -1,4 +1,6 @@
 # vue-vueRouter-note-Firebase-mobile
+
+
 一个基于vue.js和Firebase制作的笔记spa（mobile端），UI库使用light7，页面切换使用vue-router。
 
 此项目有独立PC版本，PC版项目请移步[vue-note-firebase-app](https://github.com/Geocld/vue-note-firebase-app)
@@ -27,17 +29,5 @@
 3、发布项目
 
 	npm run build
-
-
-#效果预览
-
-![](http://i.imgur.com/G3t8wfA.png)
-
-![](http://i.imgur.com/hiqElKP.png)
-
-![](http://i.imgur.com/2JolWY1.png)
-
-#TODO
-1. 目前router组件数据之间通信使用的是全局变量的方式，后续会改成使用vuex控制数据流的走向
-
-2. 增加日期排序
+  
+#TODO 

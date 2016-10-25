@@ -5,8 +5,8 @@
   "description": "A note mobile app use vue.js,Firebase,light7",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --inline --open --port 4444 --config build/webpack.dev.config.js",
-    "build": "webpack --progress --hide-modules --config build/webpack.prod.config.js",
+    "dev": "webpack-dev-server --inline --open --port 4444  --config build/webpack.dev.config.js",
+    "build": "webpack --progress --hide-modules  --config build/webpack.prod.config.js",
     "test": "karma start build/karma.conf.js"
   },
   "license": "ISC",
