@@ -1,11 +1,10 @@
 # vue-vueRouter-note-Firebase-mobile
 
 
-一个基于vue.js和Firebase制作的笔记spa（mobile端），UI库使用light7，页面切换使用vue-router。
+一个基于vue.js和Firebase制作的笔记spa（mobile端）<br/>
+UI库使用light7，页面切换使用vue-router。 
 
-此项目有独立PC版本，PC版项目请移步[vue-note-firebase-app](https://github.com/Geocld/vue-note-firebase-app)
-
-目前此APP已经可以实现标签分类、笔记添加、删除等基本功能，同时通过Firebase实现了与PC版的数据同步，使app数据在mobile和pc之间无缝接合。
+目前此APP已经可以实现标签分类、笔记添加、删除等基本功能，同时通过Firebase实现了与PC版的数据同步，使app数据在mobile和pc之间无缝接合。 
 
 页面之间的切换使用了vue-router同时使用了vue-router的过场动画效果，UI库使用light7，同时使用了popup、swipout组件，增加了本app不少体验。
 
@@ -30,4 +29,6 @@
 
 	npm run build
   
-#TODO 
+#Release change
+	1.新增论坛页面。
+	2.页面样式修改。

@@ -1,3 +1,4 @@
+
 <template>
  <div>
   <div class="list-block contacts-block">
@@ -8,7 +9,9 @@
           <div class="swipeout-content">
             <div class="item-content">
               <div class="item-inner">
-                <div class="item-title"><a @click="selectCategory(name)">{{ name }}</a></div>
+                <div class="item-title">
+                  <a @click="selectCategory(name)">{{ name }}</a>
+                </div>
               </div>
             </div>
           </div>
