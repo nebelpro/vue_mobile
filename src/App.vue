@@ -65,7 +65,6 @@ export default {
   /* 组件 */
   components: {
     forumContent
-  }
-
+  } 
 }
 </script>

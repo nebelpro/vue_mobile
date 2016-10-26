@@ -15,33 +15,18 @@
           </ul>
         </div>
       </div>
-  </div> 
-  
+  </div>  
 </div>
 </template>
 
 <script>
-import store from '../store/index_store.js'
+import store from '../../store/index_store.js'
 
-export default {
-  props: ['notes','categories'],
+export default { 
   data () {
   	return {
       count: ''
   	}
-  },
-  computed: {
-    note_arr() {
-	  var arr = [];
-	  for (var i in this.notes) {
-		if (this.notes.hasOwnProperty(i)) {
-			arr.push(this.notes[i]);
-		}
-	  }
-	  arr.sort(function(a, b) {
-		return new Date(b.date.replace(/\s/ig,'T')) - new Date(a.date.replace(/\s/ig,'T'))
-	  });
-	  return arr;
-	} 
+  } 
 }
 </script>
