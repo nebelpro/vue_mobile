@@ -7,8 +7,7 @@
           <ul>
             <li>
               <a class="item-link item-content" v-link="'noteList'">
-                <div class="item-inner">
-                  <div class="item-title">笔记</div>
+                <div class="item-inner"> 
                   <div class="item-after">全部{{ noteCount }}</div>
                 </div>
               </a>
@@ -22,7 +21,7 @@
 </template>
 
 <script>
-import store from '../store/index.js'
+import store from '../store/index_store.js'
 
 export default {
   props: ['notes','categories'],
@@ -43,14 +42,6 @@ export default {
 		return new Date(b.date.replace(/\s/ig,'T')) - new Date(a.date.replace(/\s/ig,'T'))
 	  });
 	  return arr;
-	},
-    noteCount() {
-      return this.note_arr.length;
-    },
-    categoryCount() {
-      var catArr = Object.keys(this.categories);
-      return catArr.length;
-    }
-  }
+	} 
 }
 </script>
