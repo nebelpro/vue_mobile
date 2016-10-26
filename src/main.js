@@ -8,7 +8,7 @@ import editNote from './components/editNote.vue'
 import addNote from './components/addNote.vue'
 import categoryList from './components/categoryList.vue'
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
 var router = new VueRouter();
 //定义路由规则
