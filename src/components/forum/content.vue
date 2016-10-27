@@ -8,7 +8,7 @@
             <li>
               <a class="item-link item-content" v-link="'noteList'">
                 <div class="item-inner"> 
-                  <div class="item-after">全部{{ noteCount }}</div>
+                  <div class="item-after">全部 {{ noteCount }}</div>
                 </div>
               </a>
             </li>
@@ -25,7 +25,7 @@ import store from '../../store/index_store.js'
 export default { 
   data () {
   	return {
-      count: ''
+      count: '12'
   	}
   } 
 }
